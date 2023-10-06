@@ -83,6 +83,9 @@ const config = {
     defaultLocale: process.env.DEFAULT_LOCALE,
     isProduction: process.env.NODE_ENV === 'production',
   },
+  images: {
+      unoptimized: true,
+  },
   basePath: process.env.BASE_PATH,
   output: 'standalone',
   eslint: {
